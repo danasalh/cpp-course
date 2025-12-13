@@ -1,0 +1,25 @@
+# Build output
+build/
+cmake-build-*/
+
+# IDE settings
+.vs/
+.vscode/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# Visual Studio
+*.sln
+*.vcxproj*
+Debug/
+Release/
+
+# Executables
+*.exe
+
+# Personal files
+*.pdf
