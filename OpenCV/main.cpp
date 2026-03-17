@@ -4,7 +4,6 @@
  using namespace cv;
 
 int main() {
-    // פותח את מצלמה מספר 0 (בדרך כלל המצלמה המובנית)
     VideoCapture cam(0);
 
     if (!cam.isOpened()) {
@@ -17,7 +16,6 @@ int main() {
     Mat frame;
 
     while (true) {
-        // קורא פריים מהמצלמה
         cam >> frame;
 
         if (frame.empty()) {
@@ -25,10 +23,8 @@ int main() {
             break;
         }
 
-        // מציג את הפריים
         imshow("Camera Test", frame);
 
-        // אם לחצו 'q' → יציאה
         if (waitKey(1) == 'q') {
             break;
         }
