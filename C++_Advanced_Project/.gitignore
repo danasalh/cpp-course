@@ -1,0 +1,16 @@
+# build output
+stock_app
+*.o
+*.exe
+
+# CMake / build
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# OS
+.DS_Store
+
+stock_app
+favorites.json
+imgui.ini
