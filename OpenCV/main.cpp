@@ -3,6 +3,7 @@
  using namespace std; 
  using namespace cv;
 
+ 
 int main() {
     VideoCapture cam(0);
 
